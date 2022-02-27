@@ -1,0 +1,16 @@
+// Fetch API Keys 
+//
+// Get current location of the user
+//    If rejected : Get default location from Exton (or old Cache?)
+//          -- store default_lat and default_long in config.json 
+//    If accepted : Get latitude and longitude
+//          -- fetch weather data from openweathermap.org
+//        
+// Set temperature, set gif icon based on weather description
+//      -- need conversion to degC?
+//      -- change background image? 
+//
+
+
+
+https://stackoverflow.com/questions/1047210/how-do-i-wait-until-the-user-has-finished-writing-down-in-a-text-input-to-call-a

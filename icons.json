@@ -1,0 +1,35 @@
+{
+    "icons":{
+        "ash": "./Icons/ash.gif",
+        "calm": "./Icons/calm.gif",
+        "clear":"./Icons/clear.gif",
+        "clouds": "./Icons/clouds.gif", 
+        "drizzle": "./Icons/drizzle.webp",
+        "dust": "./Icons/dust.gif",
+        "fog": "./Icons/fog.gif",
+        "haze": "./Icons/fog.gif",
+        "mist": "./Icons/mist.gif",
+        "rain": "./Icons/rain.webp",
+        "rain1": "./Icons/rain1.gif",
+        "rain2": "./Icons/rain2.gif",
+        "sand": "./Icons/sand.gif",
+        "smoke": "./Icons/smoke.gif",
+        "snow": "./Icons/snow.gif",
+        "sunny": "./Icons/sunny.gif",
+        "thunder": "./Icons/thunder.gif",
+        "squall": "./Icons/squall.gif",
+        "tornado": "./Icons/tornado.gif"
+    },
+
+    "background":{
+        "ash": "./Background/ash.webp",
+        "calm": "./Background/calm.jpg",
+        "clear":"./Background/clear.jpg",
+        "clouds": "./Background/clouds.jpg", 
+        "snow": "./Background/snow.jpg",
+        "drizzle": "./Background/drizzle.gif",
+        "rain": "./Background/drizzle.gif",
+        "mist": "./Background/mist.jpg",
+        "smoke": "./Background/smoke.jpg"
+    }
+}

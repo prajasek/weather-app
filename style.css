@@ -1,0 +1,196 @@
+body{ 
+    background-color: rgb(56, 56, 56);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    transition: 2s ease all;
+    font-size:large;
+    font-weight:normal;
+    font-family: 'Paytone One', sans-serif;
+}
+
+
+
+.main 
+{
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    width: 60%;
+    top: 40%;
+    left: 30%;
+    height: 200px;
+    transition: all 1s ;
+}
+
+.mainClass
+{
+    opacity:0;
+    transform: translateY(100px);
+}
+
+.searchBeforeBegin
+{
+    transform: translateY(-100px);
+    opacity:0;
+}
+
+.search 
+{
+    position: absolute;   
+    left:1%;
+    top:2%;
+    width:37%;
+    height:35px;
+    transition: all 1s;
+}
+
+#search-string
+{
+    position:absolute;
+    height: 100%;
+    width:93%;
+    initial-value: '';
+    border-radius: 20px;
+    border-width: 1px;
+    padding: 10px;
+}
+#icon
+{
+    height:100%;
+    width:200px;
+}
+
+img
+{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
+}
+
+/*******************************************************************/
+/* Temperature */
+#temp
+{
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    opacity:0.8;
+}
+
+#celcius-container
+{
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    background-color: rgb(36, 36, 36);
+    border-top-right-radius: 10px;
+    overflow: hidden;
+
+}
+
+#fahrenheit-container
+{
+    position: absolute;
+    top:50%;
+    height:50%;
+    width: 15%;  
+    background-color: rgb(107, 107, 107);
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+
+}
+
+#celcius
+{
+    position: absolute;
+    left: 15%;
+    top:-10%;
+    font-size: x-large;
+}
+
+#fahrenheit
+{
+    position:absolute;
+    left: 15%;
+    top:-10%;
+    font-size: x-large;
+
+
+}
+
+
+/*******************************************************************/
+/* Description and Location */
+#meta
+{
+    position:relative;
+    background-color: rgb(161, 161, 161);
+    width:70%;
+    height:100%;
+    opacity: 0.8;
+    color: rgb(0, 0, 0);
+    word-wrap: break-word;
+    font-size: x-large;
+    overflow: hidden;
+
+}
+
+#description-container, #location-container
+{
+    position: absolute;
+    height:50%;
+    width:100%;
+}
+
+
+
+#location-container
+{
+    top:50%;
+
+}
+
+#description
+{
+    position: relative;
+    margin-left: 5%;
+    top:-5px;
+}
+
+#location
+{
+    position: absolute;
+    margin-left: 5%;
+    top:-15px;
+}
+
+@media (max-device-width: 800px) {
+    .main {
+        left:5vw;
+        height:100px;
+        width: 90%;
+    }
+    
+    #meta
+    {   
+        width:120%;
+        font-size: medium;
+    }
+
+    #location, #description
+    {
+        top: -10px;
+    }
+
+    #celcius, #fahrenheit{
+        font-size: large;
+        top: -15px;
+    }
+
+    #celcius-container, #fahrenheit-container {
+        width:35%;
+    }
+}
