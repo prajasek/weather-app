@@ -1,8 +1,8 @@
 { 
     "apiKeys" : {
-        "apiKey_default" : "05db349ca4f9c3a003fea7b7616d78e2",
-        "apiKey_weatherApp" : "5f9b27185a32dca86256a0fa4675e677",
-        "geoCodingApi": "3c74c8f016a5691f3f369c9511d5002c"
+        "apiKey_default" : "05db349xxxxxxxxxxx",
+        "apiKey_weatherApp" : "5f9b2xxxxxxxxxxxx7",
+        "geoCodingApi": "3c74c8f016xxxxxxxxxxxxxxx"
     },
     "defaultPosition": {
         "lat" : "40.1156501", 
