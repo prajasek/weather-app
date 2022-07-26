@@ -1,5 +1,6 @@
 Micro Weather-App
 
+A simple weather application. Type in the name of the city/state/country. The website is hosted on AWS.
 
 ![image](https://user-images.githubusercontent.com/11493686/155902275-accf8b3f-9250-4aeb-a1d3-06b8c9a4dfe8.png)
 ![image](https://user-images.githubusercontent.com/11493686/178500174-f4956047-17a5-4a5c-a811-89aadfe1fe02.png)
